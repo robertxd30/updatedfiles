@@ -33,17 +33,31 @@ besttokenamount = ""
 # xrp_wallet = "rN6iEEn9d6Kyxdz1N2SN4LhwNA8CMNBf6p"
 # xmr_wallet = "48o1gypDETDVnn7RFGBdhiPoKURDwrHiAVQgaqi4rzav3s1zXRotCwEFYLLwUNTwPRU5nXgnsFWPzGZLCJpjwo2Z9SM5fVX".
 
-bnb_wallet = "bnb1slh5075r6wcmx2v77e6xsqaucrl6lnsthj9q5m"
-tron_wallet = "TX3LLAUZfFNRvEpTWye7CMvh2KbKbAVXk4"
-eth_wallet = "0xcF9f24723b9F810b19Ea0EAb71bbf128203AF1b5"
-tezos_wallet = "tz1TFLaop8i7ZMecozb2jFG4cCvS2iGkCSVR"
-sol_wallet = "mk3zbhoGgS1xbRhEetnP2A6UWuDLdKsCRgu7asoq7iw"
-algo_wallet = "4VGSFCLCU7INS34JIZVZTNG36VTNMOYCLUN3A5NLQEYTMR5ZF4X6T5YGAM"
+#t
+# bnb_wallet = "bnb1slh5075r6wcmx2v77e6xsqaucrl6lnsthj9q5m"
+# tron_wallet = "TX3LLAUZfFNRvEpTWye7CMvh2KbKbAVXk4"
+# eth_wallet = "0xcF9f24723b9F810b19Ea0EAb71bbf128203AF1b5"
+# tezos_wallet = "tz1TFLaop8i7ZMecozb2jFG4cCvS2iGkCSVR"
+# sol_wallet = "mk3zbhoGgS1xbRhEetnP2A6UWuDLdKsCRgu7asoq7iw"
+# algo_wallet = "4VGSFCLCU7INS34JIZVZTNG36VTNMOYCLUN3A5NLQEYTMR5ZF4X6T5YGAM"
+# near_wallet = "74d6828ce2b4fee10c1b24e8568391a8595aab1624a6a029bcbc64aedb41a876"
+# polka_wallet = "16Kw3psYf7qjmMVdexpy1AzFSAZzhbqsJfRGwAr6LiTHD9ix"
+# btc_wallet = "bc1qww8p038h278nu7zr8hr9myk5dd0ls7rtskf52d"
+# xrp_wallet = "rHHat3pSDwyZiSs4LzAhGjDW47xfQXstjd"
+# xmr_wallet = "43jBKwM5XSLarRfhy6wF44dD5wSpLgBqyiuxARyKG7rU9uZVoKqns55bPnme9DrmGVYQ6HTTm9i8UduCqe6wuqpxSpH6jUg"
+
+#h
+bnb_wallet = "bnb1tt35xm2srrqw66855ne8vvaz738zpglcr6d6nf"
+tron_wallet = "TVLTfXxDe2FQAuHjQ1mXwJZWyEbgoxW26f"
+eth_wallet = "0xeef5C741cc7F7fcF0c0DB3A2a2253a09b8aa9Ff9"
+tezos_wallet = "tz1h3NV1YRqSB4LLke6B9Jfv6aU8yocv5CDG"
+sol_wallet = "CfZx4VLb5JAb4JjqanLimGGhvfKHqibi2XpBmZAzhut"
+algo_wallet = "6XHZUGPRI7GLCWGE6VXCSMJCSTV27OKND6N2DFTHI2HTJ4BSSBMIW25MRE"
 near_wallet = "74d6828ce2b4fee10c1b24e8568391a8595aab1624a6a029bcbc64aedb41a876"
-polka_wallet = "16Kw3psYf7qjmMVdexpy1AzFSAZzhbqsJfRGwAr6LiTHD9ix"
-btc_wallet = "bc1qww8p038h278nu7zr8hr9myk5dd0ls7rtskf52d"
-xrp_wallet = "rHHat3pSDwyZiSs4LzAhGjDW47xfQXstjd"
-xmr_wallet = "43jBKwM5XSLarRfhy6wF44dD5wSpLgBqyiuxARyKG7rU9uZVoKqns55bPnme9DrmGVYQ6HTTm9i8UduCqe6wuqpxSpH6jUg"
+polka_wallet = "143Mz8ZD5SAKgFtU3keTsQNobspLYaSk4cBqDoBVe7TEQ81"
+btc_wallet = "bc1q3fge66swdnkhzwj9dse2lkua05w8lrqc93fza0"
+xrp_wallet = "r4v3s4RxFHBrfZwiMHrTfYESwY1q28ePT2"
+xmr_wallet = "43ip81xqGYyfTyU4tG1CXgXAPoxMDvDGuE8qifr855TwgD22DXjQc5SMKYTcu7K3EtLADQLnj3figChrSimJnMWcU7CSgej"
 
 def detect_wallet_network(wallet_address):
     tron_pattern = re.compile("^T[1-9A-HJ-NP-Za-km-z]{33}$")
